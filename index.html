@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explorer's Hub</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header class="hero">
+        <img src="https://tripmemos.com/wp-content/uploads/2016/07/Fotolia_81846946_Subscription_Monthly_M.jpg" alt="Eiffel Tower" class="hero-image">
+        <div class="hero-text">
+            <h1>Welcome to Explorer's Hub</h1>
+            <p>Your ultimate guide to Paris</p>
+        </div>
+    </header>
+
+    <nav>
+        <button class="nav-btn" id="home-btn">Home</button>
+        <button class="nav-btn" id="attractions-btn">Top Attractions</button>
+        <button class="nav-btn" id="map-btn">Interactive Map</button>
+        <button class="nav-btn" id="tips-btn">Local Tips</button>
+        <button class="nav-btn" id="contact-btn">Contact</button>
+    </nav>
+
+    <section id="attractions" class="tab-content">
+        <h2>Top Attractions</h2>
+        <div class="attraction">
+            <img src="https://thebettervacation.com/wp-content/uploads/2021/06/Louvre-at-night-1200x900.jpg" alt="Louvre" class="attraction-img">
+            <h3>LAUVRE</h3>
+            <p>It's the world's largest art museum and a historic monument, housing thousands of works of art.he Louvre is the world's largest art museum and a historic monument located in Paris, France. It is renowned for housing thousands of works of art, ranging from prehistory to the 21st century, and attracts millions of visitors each year.</p>
+        </div>
+        <div class="attraction">
+            <img src="https://images.pexels.com/photos/2344/cars-france-landmark-lights.jpg?auto=compress&cs=tinysrgb&fit=crop&h=627&w=1200" alt="Arc de Triomphe" class="attraction-img">
+            <h3>ARC DE TRIOMPHE</h3>
+            <p>The Arc de Triomphe is a monumental arch in Paris that honors those who fought and died for France in the French Revolutionary and Napoleonic Wars.</p>
+        </div>
+    </section>
+
+    <section id="map" class="tab-content">
+        <h2>Interactive Map</h2>
+        <div id="map-container"></div>
+    </section>
+
+    <section id="tips" class="tab-content">
+        <h2>Local Tips</h2>
+        <div class="tip">
+            <h3>Food</h3>
+            <img src="https://i.pinimg.com/originals/6d/b4/1c/6db41c72a9c9ed7082a0ed692f6cbec4.png" alt="Local Food" class="tip-img">
+            <p>These buttery, flaky pastries are a quintessential part of Parisian cuisine and a beloved breakfast staple.</p>
+        </div>
+        <div class="tip">
+            <h3>Transportation</h3>
+            <img src="https://tse1.mm.bing.net/th?id=OIP.rOg0ojPAAlMMwhRQokVmlgHaE9&pid=Api&P=0&h=180" alt="Transportation" class="tip-img">
+            <p>he Paris Metro is an extensive and efficient public transportation system that makes getting around the city quite convenie</p>
+        </div>
+        <div class="tip">
+            <h3>Culture</h3>
+            <img src="https://xdaysiny.com/wp-content/uploads/2015/07/festival-of-music-in-paris-post-cover.jpg" alt="Culture" class="tip-img">
+            <p>Paris hosts a variety of music festivals throughout the year, catering to different genres and tastes</p>
+        </div>
+    </section>
+
+    <section id="contact" class="tab-content">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
+
+
